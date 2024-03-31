@@ -92,15 +92,15 @@ def export_csv(filename_root_: str, target: str, y_bound: list):
         print(output)
         output.columns = [target]
         output['paper_name'] = f'20{k}b'
-        output.to_csv(filename[:-4] + '.csv')
+        output.to_csv(filename.replace('tex', 'csv'))
 
 
 if __name__ == '__main__':
-    filename_root = "websolutions$@b.tex"
+    filename_root = "tex/websolutions$@b.tex"
     year_bound = y_bound_cal(20, 23)
     export_csv(filename_root, 'solution', year_bound)
 
-    filename_root = "test20$@b.tex"
+    filename_root = "tex/test20$@b.tex"
     year_bound = y_bound_cal(20, 23)
     export_csv(filename_root, 'test', year_bound)
 

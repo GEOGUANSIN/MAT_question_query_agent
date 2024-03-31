@@ -1,9 +1,18 @@
+user profile and engine selection:
 topic_selection:
     Which topic to select for the question?
         Content-of-main-topics
         Context-of-sub-topics
+    PM + agent_design + UI design to indicate the next phase
 questions:
+    UI: a new interface where questions are posted and user is allowed to give input.
+    when input is given, even when it is right, explanation from the user is required.
 hint:
+    When user is not right, give some hint to the user
 answer:
+    When user is right or upon request, give the answer to the user.
+evaluation and documentation:
+    When user is right, give the evaluation of the user's answer.
 explanation:
-consider_similar_questions:
+consider_similar_questions: be careful of the machine's problem
+    the user could choose to take the question, or to proceed to the next question.

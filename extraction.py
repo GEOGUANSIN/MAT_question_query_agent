@@ -104,4 +104,3 @@ if __name__ == '__main__':
     year_bound = y_bound_cal(20, 23)
     export_csv(filename_root, 'test', year_bound)
 
-

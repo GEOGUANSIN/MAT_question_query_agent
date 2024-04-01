@@ -10,7 +10,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\csv\merged20.csv">
+        <entry key="\csv\classified.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -18,6 +18,13 @@
           </value>
         </entry>
         <entry key="\csv\merged2020b.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\csv\syllabus.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -60,27 +67,6 @@
           </value>
         </entry>
         <entry key="\csv\websolutions22b.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\syllabus.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\tex\test2020b.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\tex\websolutions20b.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
